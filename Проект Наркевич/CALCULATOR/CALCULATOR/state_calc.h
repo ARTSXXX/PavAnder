@@ -2,13 +2,13 @@
 #include "fun1.h"
 #include "fun_umn.h"
 #include "sqrt.h"
-#include "degree"
-#include "fun_raz"
-#include "devision"
+#include "degree.h"
+#include "fun_raz.h"
+#include "devision.h"
 using namespace std;
 void state_calc() {
 	int choise;
-	cout << "Ââåäèòå, ÷òî áóäåì âûïîëíÿòü ñ ïåðåìåííûìè:" << endl << "1.Ñêëàäûâàòü" << endl << "2.Âû÷èòàòü" << endl << "3.Óìíîæàòü" << endl << "4.Äåëèòü" << endl << "5.Êâàäðàòíûé êîðåíü" << endl << "6.Âîçâåäåíèå â ñòåïåíü" << endl;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥, Ã·Ã²Ã® Ã¡Ã³Ã¤Ã¥Ã¬ Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¿Ã²Ã¼ Ã± Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã»Ã¬Ã¨:" << endl << "1.Ã‘ÃªÃ«Ã Ã¤Ã»Ã¢Ã Ã²Ã¼" << endl << "2.Ã‚Ã»Ã·Ã¨Ã²Ã Ã²Ã¼" << endl << "3.Ã“Ã¬Ã­Ã®Ã¦Ã Ã²Ã¼" << endl << "4.Ã„Ã¥Ã«Ã¨Ã²Ã¼" << endl << "5.ÃŠÃ¢Ã Ã¤Ã°Ã Ã²Ã­Ã»Ã© ÃªÃ®Ã°Ã¥Ã­Ã¼" << endl << "6.Ã‚Ã®Ã§Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã¥ Ã¢ Ã±Ã²Ã¥Ã¯Ã¥Ã­Ã¼" << endl;
 	cin >> choise;
 	switch (choise)
 
@@ -41,7 +41,7 @@ void state_calc() {
 		break;
 	}
 	default:
-		cout << "Êàëüêóëÿòîð ïîêà ê òàêîìó íå ãîòîâ ê òàêîìó";
+		cout << "ÃŠÃ Ã«Ã¼ÃªÃ³Ã«Ã¿Ã²Ã®Ã° Ã¯Ã®ÃªÃ  Ãª Ã²Ã ÃªÃ®Ã¬Ã³ Ã­Ã¥ Ã£Ã®Ã²Ã®Ã¢ Ãª Ã²Ã ÃªÃ®Ã¬Ã³";
 		break;
 	}
 
